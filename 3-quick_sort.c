@@ -26,6 +26,8 @@ int lomuto_partition(int arr[], int low, int high, size_t size)
 			temp = arr[i];
 			arr[i] = arr[j];
 			arr[j] = temp;
+
+			print_array(arr, size);
 		}
 	}
 
